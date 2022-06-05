@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <link rel="shortcut icon" href="../assets/germinare.png" >
+</head>
+<body>
+    <h1>Imagens</h1>
+    <h2>Imagens Locais</h2>
+    <p>Abaixo, uma imagem na mesma pasta</p>
+    <img src="../assets/dev.jpg" alt="Imagem de um código" width="30%">
+    <p>Abaixo, uma imagem png em outro diretório</p>
+    <a href="https://www.picpay.com/site" target="_blank">
+        <img src="../assets/picpay.png" alt="Logo PicPay" width="30%">
+    </a>
+
+    <P>Acima, um link.</P>
+
+    <hr>
+    <h2>Imagem externa</h2>
+    <p>Abaixo, uma imagem da internet.</p>
+    <img src="https://www.datocms-assets.com/14946/1590690690-front-end.jpg" alt="Uma imagem de front-end" width="30%">
+
+    <hr>
+    <h2>Favicon</h2>
+    <p>Para inserir ícones no site é preciso colocar a tag &lt;link:favicon&gt; dentro da tag &lt;head&gt;</p>
+
+    <hr>
+        <h2>Imagens dinâmicas</h2>
+    <picture>
+        <source media="(max-width:300px )" srcset="assets/germinare.png" type="image/png">
+        <source media="(max-width:800px )" srcset="assets/picpay.png" type="image/png">
+       <img src="assets/dev.jpg" alt="Imagem Grande">
+    </picture>
+
+
+</body>
+</html>
